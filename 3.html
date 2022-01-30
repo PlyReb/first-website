@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>web1-JavaScript</title>
+  <meta charset"utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function nightDayHandler(self){
+      var target = document.querySelector('body');
+         if(self.value === 'night'){
+             target.style.backgroundColor = 'black';
+             target.style.color = 'white';
+             self.value = 'day';
+
+             var alist = document.querySelectorAll('a');
+             var i = 0;
+             while(i < alist.length){
+             alist[i].style.color = 'powderblue';
+             i = i + 1;
+           }
+         } else {
+             target.style.backgroundColor = 'white';
+             target.style.color = 'black';
+             self.value = 'night'
+
+               var alist = document.querySelectorAll('a');
+               var i = 0;
+               while(i < alist.length){
+               alist[i].style.color = 'black';
+               i = i + 1;
+             }
+         }
+       }
+  </script>
+</head>
+
+<body>
+  <h1> <a href="index.html">WEB</a></h1>
+  <div id="grid">
+      <ol>
+        <input type="button" value="night" onclick="
+          nightDayHandler(this);
+        ">
+        <input type="button" value="night" onclick="
+          nightDayHandler(this);
+        ">
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+      </ol>
+    <div id="article">
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+      <h2 style="background-color: coral; color: powderblue"><span style="font-weight:bold;">JavaScript</span>
+</h2>
+      <p>
+        <span style="font-weight:bold;">JavaScript</span>
+</span>
+</span>
+        모질라 재단의 프로토타입 기반의 프로그래밍 언어로, 스크립트 언어에 해당된다. 특수한 목적이 아닌 이상 모든 웹 브라우저에 인터프리터가 내장되어 있다. 오늘날 HTML, CSS와 함께 웹을 구성하는 요소 중 하나다. HTML이 웹 페이지의 기본 구조를 담당하고, CSS가 디자인을 담당한다면 <span style="font-weight:bold;">JavaScript</span>
+는 클라이언트 단에서 웹 페이지가 동작하는 것을 담당한다.[1] 웹 페이지를 자동차에 비유하자면, HTML은 자동차의 뼈대, CSS는 자동차의 외관, <span style="font-weight:bold;">JavaScript</span>
+는 자동차의 동력이라고 볼 수 있다..
+      </p>
+
+    </div>
+
+  </div>
+<p>
+    <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://web1-hta3do98uz.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable <span style="font-weight:bold;"><span style="font-weight:bold;">JavaScript</span>
+</span>
+ to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+  <!--Start of Tawk.to Script-->
+<script type="text/<span style="font-weight:bold;">JavaScript</span>
+">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61e2d2def7cf527e84d24a48/1fpf0fe41';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
